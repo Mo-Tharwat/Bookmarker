@@ -1,0 +1,36 @@
+/* 1- Import Root */
+@import url('./../css/ComponentPages/roots.css');
+/* 2- Import Navbar Section */
+@import url('./../css/ComponentPages/HeaderAndFooter/navbar.css');
+/* 3- Import Footer Section */
+@import url('./../css/ComponentPages/HeaderAndFooter/footer.css');
+
+header .titleHeader{
+    color:#AAA;
+}
+header .titleHeader::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background-color:#EEE;
+    margin-top: 2rem;
+}
+.formbg{
+    background-color:#EEE;
+}
+section{
+    min-height: 50vh;
+}
+section .container .row .result{
+    background-image:linear-gradient(to top, #EEE, #FFF);
+}
+.btn{
+    width: 8rem;
+}
+.result{
+    margin: 2rem 0;
+    padding: 2rem 0;
+}
